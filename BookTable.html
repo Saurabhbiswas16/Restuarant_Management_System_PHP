@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Welcome to paradise</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <style>
+        body {
+                     background-image: url("images/Static/table.jpg");
+                     background-size: 100% 100%;
+                     
+             }
+       
+    </style>
+    <link rel="stylesheet" href="login.css">
+    <body>
+        
+        
+        <form action="Customer_Information.php" method="POST" class="container">
+    <h1>Welcome sir</h1>
+
+    <label for="customer_name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="customer_name" required>
+    
+    <label for="customer_address"><b>Address</b></label>
+    <input type="text" placeholder="Enter address" name="customer_address" required>
+    
+    <label for="customer_city"><b>City</b></label>
+    <input type="text" placeholder="Enter address" name="customer_city" required>
+    
+    <label for="customer_state"><b>State</b></label>
+    <input type="text" placeholder="Enter address" name="customer_state" maxlength="6" minlength="6" required>
+    
+    <label for="customer_pincode"><b>Pincode</b></label>
+    <input type="text" placeholder="Enter address" name="customer_pincode" maxlength="6" minlength="6" required>
+    
+    <label for="customer_emailid"><b>Email Id</b></label>
+    <input type="text" placeholder="Enter address" name="customer_emailid" required>
+
+    <label for="customer_mobileno"><b>Phone number</b></label>
+    <input type="text" placeholder="Enter 10 digit number" name="customer_mobileno" maxlength="10" minlength="10" required>
+    
+     <label for="customer_total"><b>Number of persons</b></label>
+    <input type="text" placeholder="Enter Number of persons" name="customer_total"  required>
+    
+    
+
+    <button type="submit" class="btn">submit</button>
+  </form>
+</div>
+</body>
+</html>
